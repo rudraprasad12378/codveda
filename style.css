@@ -242,14 +242,15 @@ header {
     gap:60px;
 }
 
-.about-image,
-.about-text{
-    flex:1;
+.about-image img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,.2);
+    transition: .4s ease;
 }
 
-.about-image img{
-    border-radius:20px;
-    box-shadow:0 20px 40px rgba(0,0,0,.15);
+.about-image img:hover{
+    transform: scale(1.03);
 }
 
 .about-text h2{
