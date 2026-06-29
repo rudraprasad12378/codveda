@@ -382,3 +382,21 @@ footer{
         padding: 20px;
     }
 }
+section{
+    padding:100px 8%;
+}
+.hero-text h1{
+    font-size:60px;
+    font-weight:700;
+}
+.btn,
+.primary-btn,
+.secondary-btn{
+    transition:all .3s ease;
+}
+
+.btn:hover,
+.primary-btn:hover,
+.secondary-btn:hover{
+    transform:translateY(-3px);
+}
